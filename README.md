@@ -1,4 +1,4 @@
-## FORMATION : Learn-modern-security-and-cryptography-by-coding-in-python
+## FORMATION : Learn modern cryptography by coding in python
 
 Cette formation permet de comprendre les bases de la cryptographie en se basant 
 sur des exercises pratiques à exécuter en python.
@@ -24,4 +24,4 @@ en pratique de ces techniques de chiffrement via python.
 
 ### ONLINE LINK :
 Tous ces exercises sont extraits d'un cours udemy très bien fait, il est conseillé de le suivre progressevement pour bien comprendre les notions. 
-https://www.udemy.com/course/learn-modern-security-and-cryptography-by-coding-in-python/learn/lecture/20254880#overview
+https://www.udemy.com/course/learn-modern-security-and-cryptography-by-coding-in-python/
