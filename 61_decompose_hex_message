@@ -1,0 +1,16 @@
+Cette page est un petit memo pour comprendre le résultat final pas forcément intuitif
+En essayant de récupérer la bonne clé on invente un message guess message qui ressemble au vrai message
+I LOVE YOU (vrai message)
+I HATE YOU (guess message)
+A partir du guess message et du cipher (message crypté avec la clé) on essaye de récupéré la clé 
+guess message ^ ciphered = guess key 
+Avec la guess key on essaye de décrypter le cyphered on tombe sur le guess message
+
+I                 H         (message encode en utf8)
+49       20       48        41 544520594f55 (guess message)
+48       22       4f        4b53432751465f (ciphered)
+01001001 00100000 01001000
+01001000 00100010 01001111
+00000001 00000010 00000111 (guess cle)
+
+Ce qu'il faut retenir est qu'en faisant ca, on se créé une key capable de lire nos message mais pas ceux rééllement chiffré
